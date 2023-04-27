@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.parent {
+  display: flex;
+  /* flex-direction: column; */
+}
+.img {
+  border-radius: 100%;
+}
+.rightside {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  flex: 1;
+  align-items: center;
+  position: relative;
+  /* text-align: justify; */
+}
+.rightside input {
+  border-radius: 10px;
+  height: 1.875rem;
+  width: 11.25rem;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  background-color: #ffffff;
+}
+.mainPara{
+   position: relative;
+   left:2rem;
+}
+
+.searchicon {
+  position: absolute;
+  right: 5.1rem;
+  background-color: #ffffff;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.paraSize{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+margin:0;
+padding:0;
+}
+.para{
+    margin:0;
+    padding: 0;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem; */
+  width: 13.816rem;
+  height:7.5rem;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.card img{
+    position: relative;
+    /* top:1rem; */
+    left: 10.6rem;
+    width:26.4px;
+    margin:0;
+    padding:0
+}

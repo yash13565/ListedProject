@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.mainbox {
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  width: 30rem;
+  border-radius: 20px;
+  height: 256px;
+  background: #ffffff;
+  padding: 0.3rem 1.5rem 0 1.5rem;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.box2 {
+  width: 30rem;
+  border-radius: 20px;
+  height: 256px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 0.3rem 1.5rem 0 1.5rem;
+  box-sizing: border-box;
+}
+.schedule {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+}
+.time {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}
+.location {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  justify-content: center;
+  padding: 0.4rem;
+}
+.datas {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.para {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.seeAll {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #858585;
+  cursor: pointer;
+}
+.firstLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.charts{
+    display: flex;
+    justify-content: space-between;
+}
+.chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.data{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+/* line-height: 17px; */
+}
+.percentage{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+/* line-height: 14px; */
+color: #858585;
+margin-left:.3rem
+
+}
+.details{
+    display: flex;
+    /* text-align: left; */
+    /* gap:2rem; */
+   align-items: center;
+}
